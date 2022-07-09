@@ -6,7 +6,7 @@ public class Apple extends Sprite{
         initApple();
     }
     private void initApple(){
-        setImage("D:\\Code\\JavaCode\\ZetCode\\images\\vinh.png");
+        setImage(Common.baseURL + "\\src\\main\\resources\\images\\apple.png");
     }
     public void randomApple(){
         this.x = (int)(Math.random()*29)*40;
