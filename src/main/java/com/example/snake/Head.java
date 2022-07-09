@@ -6,7 +6,7 @@ public class Head extends Sprite{
         initHead();
     }
     private void initHead(){
-        setImage("D:\\Code\\JavaCode\\ZetCode\\images\\head.png");
+        setImage(Common.baseURL + "\\src\\main\\resources\\images\\head.png");
     }
 
     public void move(double dx, double dy){
