@@ -6,7 +6,7 @@ public class Dot extends Sprite{
         initDot();
     }
     private void initDot(){
-        setImage("D:\\Code\\JavaCode\\ZetCode\\images\\ball.png");
+        setImage(Common.baseURL + "\\src\\main\\resources\\images\\dot.png");
     }
 
     public void move(double x,double y){
